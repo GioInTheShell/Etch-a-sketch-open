@@ -1,0 +1,52 @@
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(8, 141, 134);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px purple solid;
+    min-height: 800px;
+    margin: 0;
+}
+
+
+.container{
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    border: 2px red solid;
+    min-width: 600px;
+    min-height: 500px;
+    
+}
+
+.sketchboard{
+    background-color: rgb(87, 28, 198);
+    border: 5px solid black;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    box-sizing: content-box;
+    
+}
+
+.hpixel{
+   /* border: 2px blue solid;*/
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
+    
+}
+.pixel{
+    border: 1px black solid; 
+    margin: 0;
+    padding: 0;
+    flex-shrink: 1;
+    background-color: red;
+    font-size: 0.5%;
+}
