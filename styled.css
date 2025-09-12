@@ -24,7 +24,7 @@ body{
 }
 
 .sketchboard{
-    background-color: rgb(87, 28, 198);
+    background-color: whitesmoke;
     border: 5px solid black;
     width: 400px;
     height: 400px;
@@ -43,10 +43,9 @@ body{
     
 }
 .pixel{
-    border: 1px black solid; 
+    /* border: 1px black solid;  */
     margin: 0;
     padding: 0;
     flex-shrink: 1;
-    background-color: red;
-    font-size: 0.5%;
+    background-color: whitesmoke;
 }
