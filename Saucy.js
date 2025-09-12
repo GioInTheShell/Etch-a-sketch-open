@@ -15,6 +15,8 @@ function setupDraw(){
 function draw(e) {
    if (e.target.matches('.pixel')){
     e.target.style.backgroundColor = "black";
+    e.target.style.borderColor = "black";
+    e.target.style.borderWidth = "1px";
    }
 }
 
@@ -27,7 +29,6 @@ function canvasMake(size){
        pixel.style.width = pDim + "px";
        pixel.style.height = pDim + "px";
        pixel.classList.add('pixel');
-       pixel.innerHTML += i + 1;
        sketchb.appendChild(pixel);
     }
 }
