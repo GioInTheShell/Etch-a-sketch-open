@@ -6,7 +6,9 @@ body{
     background-color: rgb(8, 141, 134);
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
+
     border: 4px purple solid;
     min-height: 800px;
     margin: 0;
@@ -48,4 +50,9 @@ body{
     padding: 0;
     flex-shrink: 1;
     background-color: whitesmoke;
+}
+#canvasRes{
+    background-color: blueviolet;
+    margin: 30px;
+    width: 45px;
 }
